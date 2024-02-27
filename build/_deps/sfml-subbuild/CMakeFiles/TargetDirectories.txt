@@ -1,0 +1,3 @@
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/ZERO_CHECK.dir

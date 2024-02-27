@@ -1,0 +1,10 @@
+^C:\USERS\HOOVY\DESKTOP\WHY\VAMPIRESURVIVORS\VAMSUV\BUILD\_DEPS\SFML-SRC\SRC\SFML\GRAPHICS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv -BC:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build --check-stamp-file C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e08953f56fc01e4a07e710281edb6655\sfml-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\e0308844801d45abe762bfa6fed3c990\sfml-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\c4936bc0777b6dfb69d1f74c14c88a72\sfml-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DFDD28E6-09FD-3EB9-89A4-85174CE6D663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

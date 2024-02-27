@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindOpenAL.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/Modules/FindVORBIS.cmake
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/tools/windows/resource.rc.in

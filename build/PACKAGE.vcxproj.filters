@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\CMakeFiles\56db20b4041bee7ffcab96db57aa5be3\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4E385A4C-B9CD-3CB2-BA1F-91682AFE0FB8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/c4936bc0777b6dfb69d1f74c14c88a72/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e0308844801d45abe762bfa6fed3c990/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-subbuild/CMakeFiles/e08953f56fc01e4a07e710281edb6655/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

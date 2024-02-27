@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-src\src\SFML\Main\MainWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hoovy\Desktop\Why\VampireSurvivors\VamSuv\build\_deps\sfml-src\src\SFML\Main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29804495-EADC-3D6A-9B93-040BFC0AD510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
