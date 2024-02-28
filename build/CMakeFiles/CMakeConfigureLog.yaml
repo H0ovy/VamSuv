@@ -517,3 +517,1560 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 27.02.2024 22:14:40.
+      
+      Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.59
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/3.29.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 27.02.2024 22:14:40.
+      
+      Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.58
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/3.29.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ficfk9"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ficfk9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ficfk9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eab95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:14:41.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ficfk9\\cmTC_eab95.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_eab95.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ficfk9\\Debug\\".
+          Создание каталога "cmTC_eab95.dir\\Debug\\cmTC_eab95.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_eab95.dir\\Debug\\cmTC_eab95.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_eab95.dir\\Debug\\cmTC_eab95.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eab95.dir\\Debug\\\\" /Fd"cmTC_eab95.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eab95.dir\\Debug\\\\" /Fd"cmTC_eab95.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ficfk9\\Debug\\cmTC_eab95.exe" /INCREMENTAL /ILK:"cmTC_eab95.dir\\Debug\\cmTC_eab95.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ficfk9/Debug/cmTC_eab95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ficfk9/Debug/cmTC_eab95.lib" /MACHINE:X64  /machine:x64 cmTC_eab95.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_eab95.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ficfk9\\Debug\\cmTC_eab95.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_eab95.dir\\Debug\\cmTC_eab95.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_eab95.dir\\Debug\\cmTC_eab95.tlog\\cmTC_eab95.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ficfk9\\cmTC_eab95.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wffn2f"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wffn2f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wffn2f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_53a64.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:14:42.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wffn2f\\cmTC_53a64.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_53a64.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wffn2f\\Debug\\".
+          Создание каталога "cmTC_53a64.dir\\Debug\\cmTC_53a64.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_53a64.dir\\Debug\\cmTC_53a64.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_53a64.dir\\Debug\\cmTC_53a64.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_53a64.dir\\Debug\\\\" /Fd"cmTC_53a64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_53a64.dir\\Debug\\\\" /Fd"cmTC_53a64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wffn2f\\Debug\\cmTC_53a64.exe" /INCREMENTAL /ILK:"cmTC_53a64.dir\\Debug\\cmTC_53a64.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wffn2f/Debug/cmTC_53a64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wffn2f/Debug/cmTC_53a64.lib" /MACHINE:X64  /machine:x64 cmTC_53a64.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_53a64.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wffn2f\\Debug\\cmTC_53a64.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_53a64.dir\\Debug\\cmTC_53a64.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_53a64.dir\\Debug\\cmTC_53a64.tlog\\cmTC_53a64.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wffn2f\\cmTC_53a64.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-o7oj5e"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-o7oj5e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-o7oj5e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b35bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:14:45.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\cmTC_b35bb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b35bb.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\Debug\\".
+          Создание каталога "cmTC_b35bb.dir\\Debug\\cmTC_b35bb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b35bb.dir\\Debug\\cmTC_b35bb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_b35bb.dir\\Debug\\cmTC_b35bb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b35bb.dir\\Debug\\\\" /Fd"cmTC_b35bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b35bb.dir\\Debug\\\\" /Fd"cmTC_b35bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\Debug\\cmTC_b35bb.exe" /INCREMENTAL /ILK:"cmTC_b35bb.dir\\Debug\\cmTC_b35bb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-o7oj5e/Debug/cmTC_b35bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-o7oj5e/Debug/cmTC_b35bb.lib" /MACHINE:X64  /machine:x64 cmTC_b35bb.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b35bb.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\Debug\\cmTC_b35bb.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_b35bb.dir\\Debug\\cmTC_b35bb.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_b35bb.dir\\Debug\\cmTC_b35bb.tlog\\cmTC_b35bb.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7oj5e\\cmTC_b35bb.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-m09idg"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-m09idg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-m09idg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8afd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:14:46.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\cmTC_8afd6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_8afd6.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\Debug\\".
+          Создание каталога "cmTC_8afd6.dir\\Debug\\cmTC_8afd6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8afd6.dir\\Debug\\cmTC_8afd6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_8afd6.dir\\Debug\\cmTC_8afd6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8afd6.dir\\Debug\\\\" /Fd"cmTC_8afd6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8afd6.dir\\Debug\\\\" /Fd"cmTC_8afd6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\Debug\\cmTC_8afd6.exe" /INCREMENTAL /ILK:"cmTC_8afd6.dir\\Debug\\cmTC_8afd6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-m09idg/Debug/cmTC_8afd6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-m09idg/Debug/cmTC_8afd6.lib" /MACHINE:X64  /machine:x64 cmTC_8afd6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8afd6.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\Debug\\cmTC_8afd6.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_8afd6.dir\\Debug\\cmTC_8afd6.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_8afd6.dir\\Debug\\cmTC_8afd6.tlog\\cmTC_8afd6.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m09idg\\cmTC_8afd6.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-v59qu8"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-v59qu8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-v59qu8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_892b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:14:47.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\cmTC_892b0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_892b0.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\Debug\\".
+          Создание каталога "cmTC_892b0.dir\\Debug\\cmTC_892b0.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_892b0.dir\\Debug\\cmTC_892b0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_892b0.dir\\Debug\\cmTC_892b0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_892b0.dir\\Debug\\\\" /Fd"cmTC_892b0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_892b0.dir\\Debug\\\\" /Fd"cmTC_892b0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\Debug\\cmTC_892b0.exe" /INCREMENTAL /ILK:"cmTC_892b0.dir\\Debug\\cmTC_892b0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-v59qu8/Debug/cmTC_892b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-v59qu8/Debug/cmTC_892b0.lib" /MACHINE:X64  /machine:x64 cmTC_892b0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_892b0.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\Debug\\cmTC_892b0.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_892b0.dir\\Debug\\cmTC_892b0.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_892b0.dir\\Debug\\cmTC_892b0.tlog\\cmTC_892b0.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v59qu8\\cmTC_892b0.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-jpymrr"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-jpymrr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-jpymrr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03aff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:14:48.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\cmTC_03aff.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_03aff.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\Debug\\".
+          Создание каталога "cmTC_03aff.dir\\Debug\\cmTC_03aff.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_03aff.dir\\Debug\\cmTC_03aff.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_03aff.dir\\Debug\\cmTC_03aff.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03aff.dir\\Debug\\\\" /Fd"cmTC_03aff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\SIZEOF_VOID_PTR.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03aff.dir\\Debug\\\\" /Fd"cmTC_03aff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\Debug\\cmTC_03aff.exe" /INCREMENTAL /ILK:"cmTC_03aff.dir\\Debug\\cmTC_03aff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-jpymrr/Debug/cmTC_03aff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-jpymrr/Debug/cmTC_03aff.lib" /MACHINE:X64  /machine:x64 cmTC_03aff.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_03aff.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\Debug\\cmTC_03aff.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_03aff.dir\\Debug\\cmTC_03aff.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_03aff.dir\\Debug\\cmTC_03aff.tlog\\cmTC_03aff.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpymrr\\cmTC_03aff.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 27.02.2024 22:16:53.
+      
+      Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.55
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/3.29.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 27.02.2024 22:16:53.
+      
+      Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/3.29.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-26s62e"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-26s62e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-26s62e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85342.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:16:54.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26s62e\\cmTC_85342.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_85342.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26s62e\\Debug\\".
+          Создание каталога "cmTC_85342.dir\\Debug\\cmTC_85342.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_85342.dir\\Debug\\cmTC_85342.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_85342.dir\\Debug\\cmTC_85342.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85342.dir\\Debug\\\\" /Fd"cmTC_85342.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85342.dir\\Debug\\\\" /Fd"cmTC_85342.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26s62e\\Debug\\cmTC_85342.exe" /INCREMENTAL /ILK:"cmTC_85342.dir\\Debug\\cmTC_85342.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-26s62e/Debug/cmTC_85342.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-26s62e/Debug/cmTC_85342.lib" /MACHINE:X64  /machine:x64 cmTC_85342.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_85342.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26s62e\\Debug\\cmTC_85342.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_85342.dir\\Debug\\cmTC_85342.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_85342.dir\\Debug\\cmTC_85342.tlog\\cmTC_85342.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26s62e\\cmTC_85342.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-9sht1d"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-9sht1d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-9sht1d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e596c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:16:55.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sht1d\\cmTC_e596c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e596c.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sht1d\\Debug\\".
+          Создание каталога "cmTC_e596c.dir\\Debug\\cmTC_e596c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e596c.dir\\Debug\\cmTC_e596c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e596c.dir\\Debug\\cmTC_e596c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e596c.dir\\Debug\\\\" /Fd"cmTC_e596c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e596c.dir\\Debug\\\\" /Fd"cmTC_e596c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sht1d\\Debug\\cmTC_e596c.exe" /INCREMENTAL /ILK:"cmTC_e596c.dir\\Debug\\cmTC_e596c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-9sht1d/Debug/cmTC_e596c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-9sht1d/Debug/cmTC_e596c.lib" /MACHINE:X64  /machine:x64 cmTC_e596c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e596c.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sht1d\\Debug\\cmTC_e596c.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e596c.dir\\Debug\\cmTC_e596c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e596c.dir\\Debug\\cmTC_e596c.tlog\\cmTC_e596c.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sht1d\\cmTC_e596c.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ohbwzj"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ohbwzj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ohbwzj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4fae8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:16:58.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\cmTC_4fae8.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_4fae8.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\Debug\\".
+          Создание каталога "cmTC_4fae8.dir\\Debug\\cmTC_4fae8.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_4fae8.dir\\Debug\\cmTC_4fae8.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4fae8.dir\\Debug\\cmTC_4fae8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fae8.dir\\Debug\\\\" /Fd"cmTC_4fae8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fae8.dir\\Debug\\\\" /Fd"cmTC_4fae8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\Debug\\cmTC_4fae8.exe" /INCREMENTAL /ILK:"cmTC_4fae8.dir\\Debug\\cmTC_4fae8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ohbwzj/Debug/cmTC_4fae8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ohbwzj/Debug/cmTC_4fae8.lib" /MACHINE:X64  /machine:x64 cmTC_4fae8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4fae8.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\Debug\\cmTC_4fae8.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_4fae8.dir\\Debug\\cmTC_4fae8.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_4fae8.dir\\Debug\\cmTC_4fae8.tlog\\cmTC_4fae8.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohbwzj\\cmTC_4fae8.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ixlpq2"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ixlpq2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ixlpq2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d593.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:16:59.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\cmTC_1d593.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1d593.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\Debug\\".
+          Создание каталога "cmTC_1d593.dir\\Debug\\cmTC_1d593.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1d593.dir\\Debug\\cmTC_1d593.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_1d593.dir\\Debug\\cmTC_1d593.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d593.dir\\Debug\\\\" /Fd"cmTC_1d593.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d593.dir\\Debug\\\\" /Fd"cmTC_1d593.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\Debug\\cmTC_1d593.exe" /INCREMENTAL /ILK:"cmTC_1d593.dir\\Debug\\cmTC_1d593.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ixlpq2/Debug/cmTC_1d593.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-ixlpq2/Debug/cmTC_1d593.lib" /MACHINE:X64  /machine:x64 cmTC_1d593.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1d593.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\Debug\\cmTC_1d593.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_1d593.dir\\Debug\\cmTC_1d593.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_1d593.dir\\Debug\\cmTC_1d593.tlog\\cmTC_1d593.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ixlpq2\\cmTC_1d593.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-6t3nvw"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-6t3nvw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-6t3nvw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_688f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:17:00.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\cmTC_688f0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_688f0.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\Debug\\".
+          Создание каталога "cmTC_688f0.dir\\Debug\\cmTC_688f0.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_688f0.dir\\Debug\\cmTC_688f0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_688f0.dir\\Debug\\cmTC_688f0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_688f0.dir\\Debug\\\\" /Fd"cmTC_688f0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_688f0.dir\\Debug\\\\" /Fd"cmTC_688f0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\Debug\\cmTC_688f0.exe" /INCREMENTAL /ILK:"cmTC_688f0.dir\\Debug\\cmTC_688f0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-6t3nvw/Debug/cmTC_688f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-6t3nvw/Debug/cmTC_688f0.lib" /MACHINE:X64  /machine:x64 cmTC_688f0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_688f0.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\Debug\\cmTC_688f0.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_688f0.dir\\Debug\\cmTC_688f0.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_688f0.dir\\Debug\\cmTC_688f0.tlog\\cmTC_688f0.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6t3nvw\\cmTC_688f0.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-z7fgsf"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-z7fgsf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-z7fgsf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da7ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:17:01.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\cmTC_da7ef.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_da7ef.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\Debug\\".
+          Создание каталога "cmTC_da7ef.dir\\Debug\\cmTC_da7ef.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_da7ef.dir\\Debug\\cmTC_da7ef.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_da7ef.dir\\Debug\\cmTC_da7ef.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da7ef.dir\\Debug\\\\" /Fd"cmTC_da7ef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\SIZEOF_VOID_PTR.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da7ef.dir\\Debug\\\\" /Fd"cmTC_da7ef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\Debug\\cmTC_da7ef.exe" /INCREMENTAL /ILK:"cmTC_da7ef.dir\\Debug\\cmTC_da7ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-z7fgsf/Debug/cmTC_da7ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-z7fgsf/Debug/cmTC_da7ef.lib" /MACHINE:X64  /machine:x64 cmTC_da7ef.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_da7ef.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\Debug\\cmTC_da7ef.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_da7ef.dir\\Debug\\cmTC_da7ef.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_da7ef.dir\\Debug\\cmTC_da7ef.tlog\\cmTC_da7ef.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7fgsf\\cmTC_da7ef.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.56
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 27.02.2024 22:18:11.
+      
+      Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.54
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/3.29.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 27.02.2024 22:18:12.
+      
+      Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/3.29.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-nsnx39"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-nsnx39"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-nsnx39'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d51bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:18:13.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsnx39\\cmTC_d51bb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_d51bb.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsnx39\\Debug\\".
+          Создание каталога "cmTC_d51bb.dir\\Debug\\cmTC_d51bb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_d51bb.dir\\Debug\\cmTC_d51bb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_d51bb.dir\\Debug\\cmTC_d51bb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51bb.dir\\Debug\\\\" /Fd"cmTC_d51bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51bb.dir\\Debug\\\\" /Fd"cmTC_d51bb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsnx39\\Debug\\cmTC_d51bb.exe" /INCREMENTAL /ILK:"cmTC_d51bb.dir\\Debug\\cmTC_d51bb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-nsnx39/Debug/cmTC_d51bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-nsnx39/Debug/cmTC_d51bb.lib" /MACHINE:X64  /machine:x64 cmTC_d51bb.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d51bb.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsnx39\\Debug\\cmTC_d51bb.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_d51bb.dir\\Debug\\cmTC_d51bb.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_d51bb.dir\\Debug\\cmTC_d51bb.tlog\\cmTC_d51bb.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsnx39\\cmTC_d51bb.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-rsqeq5"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-rsqeq5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-rsqeq5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41056.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:18:13.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rsqeq5\\cmTC_41056.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_41056.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rsqeq5\\Debug\\".
+          Создание каталога "cmTC_41056.dir\\Debug\\cmTC_41056.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_41056.dir\\Debug\\cmTC_41056.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_41056.dir\\Debug\\cmTC_41056.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_41056.dir\\Debug\\\\" /Fd"cmTC_41056.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_41056.dir\\Debug\\\\" /Fd"cmTC_41056.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rsqeq5\\Debug\\cmTC_41056.exe" /INCREMENTAL /ILK:"cmTC_41056.dir\\Debug\\cmTC_41056.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-rsqeq5/Debug/cmTC_41056.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-rsqeq5/Debug/cmTC_41056.lib" /MACHINE:X64  /machine:x64 cmTC_41056.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_41056.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rsqeq5\\Debug\\cmTC_41056.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_41056.dir\\Debug\\cmTC_41056.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_41056.dir\\Debug\\cmTC_41056.tlog\\cmTC_41056.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rsqeq5\\cmTC_41056.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33520.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-292tuq"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-292tuq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-292tuq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a17b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:18:17.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\cmTC_a17b2.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a17b2.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\Debug\\".
+          Создание каталога "cmTC_a17b2.dir\\Debug\\cmTC_a17b2.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a17b2.dir\\Debug\\cmTC_a17b2.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_a17b2.dir\\Debug\\cmTC_a17b2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a17b2.dir\\Debug\\\\" /Fd"cmTC_a17b2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a17b2.dir\\Debug\\\\" /Fd"cmTC_a17b2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\Debug\\cmTC_a17b2.exe" /INCREMENTAL /ILK:"cmTC_a17b2.dir\\Debug\\cmTC_a17b2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-292tuq/Debug/cmTC_a17b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-292tuq/Debug/cmTC_a17b2.lib" /MACHINE:X64  /machine:x64 cmTC_a17b2.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a17b2.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\Debug\\cmTC_a17b2.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a17b2.dir\\Debug\\cmTC_a17b2.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a17b2.dir\\Debug\\cmTC_a17b2.tlog\\cmTC_a17b2.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-292tuq\\cmTC_a17b2.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-60v2uy"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-60v2uy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-60v2uy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7617.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:18:18.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\cmTC_f7617.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f7617.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\Debug\\".
+          Создание каталога "cmTC_f7617.dir\\Debug\\cmTC_f7617.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f7617.dir\\Debug\\cmTC_f7617.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_f7617.dir\\Debug\\cmTC_f7617.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7617.dir\\Debug\\\\" /Fd"cmTC_f7617.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7617.dir\\Debug\\\\" /Fd"cmTC_f7617.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\Debug\\cmTC_f7617.exe" /INCREMENTAL /ILK:"cmTC_f7617.dir\\Debug\\cmTC_f7617.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-60v2uy/Debug/cmTC_f7617.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-60v2uy/Debug/cmTC_f7617.lib" /MACHINE:X64  /machine:x64 cmTC_f7617.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f7617.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\Debug\\cmTC_f7617.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f7617.dir\\Debug\\cmTC_f7617.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f7617.dir\\Debug\\cmTC_f7617.tlog\\cmTC_f7617.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60v2uy\\cmTC_f7617.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-anih7v"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-anih7v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-anih7v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a709f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:18:18.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\cmTC_a709f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a709f.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\Debug\\".
+          Создание каталога "cmTC_a709f.dir\\Debug\\cmTC_a709f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a709f.dir\\Debug\\cmTC_a709f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_a709f.dir\\Debug\\cmTC_a709f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a709f.dir\\Debug\\\\" /Fd"cmTC_a709f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a709f.dir\\Debug\\\\" /Fd"cmTC_a709f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\Debug\\cmTC_a709f.exe" /INCREMENTAL /ILK:"cmTC_a709f.dir\\Debug\\cmTC_a709f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-anih7v/Debug/cmTC_a709f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-anih7v/Debug/cmTC_a709f.lib" /MACHINE:X64  /machine:x64 cmTC_a709f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a709f.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\Debug\\cmTC_a709f.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a709f.dir\\Debug\\cmTC_a709f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a709f.dir\\Debug\\cmTC_a709f.tlog\\cmTC_a709f.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-anih7v\\cmTC_a709f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wrq12s"
+      binary: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wrq12s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wrq12s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_771ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 27.02.2024 22:18:19.
+        
+        Проект "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\cmTC_771ee.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_771ee.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\Debug\\".
+          Создание каталога "cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ee.dir\\Debug\\\\" /Fd"cmTC_771ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\SIZEOF_VOID_PTR.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33520 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ee.dir\\Debug\\\\" /Fd"cmTC_771ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\Debug\\cmTC_771ee.exe" /INCREMENTAL /ILK:"cmTC_771ee.dir\\Debug\\cmTC_771ee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wrq12s/Debug/cmTC_771ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Hoovy/Desktop/Why/VampireSurvivors/VamSuv/build/CMakeFiles/CMakeScratch/TryCompile-wrq12s/Debug/cmTC_771ee.lib" /MACHINE:X64  /machine:x64 cmTC_771ee.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_771ee.vcxproj -> C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\Debug\\cmTC_771ee.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\cmTC_771ee.lastbuildstate".
+        Сборка проекта "C:\\Users\\Hoovy\\Desktop\\Why\\VampireSurvivors\\VamSuv\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wrq12s\\cmTC_771ee.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.63
+        
+      exitCode: 0
+...

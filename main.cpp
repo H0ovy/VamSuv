@@ -14,8 +14,10 @@ class GameLoop
 public:
     GameLoop(sf::RenderWindow& window) : _window{window}
     {
-        _texture_hero.loadFromFile("assets/Hero.png");
+        _texture_hero.loadFromFile("../assets/Hero.png");
         _hero.setTexture(_texture_hero);
+        _hero.setTextureRect({0, 64, 32, 64});
+
         _animation_time = sf::Time{sf::seconds(0.2)};
     }
 

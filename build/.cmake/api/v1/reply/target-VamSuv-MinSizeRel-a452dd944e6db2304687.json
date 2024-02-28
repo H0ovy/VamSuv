@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/VamSuv.exe"
+			"path" : "MinSizeRel/VamSuv.exe"
 		},
 		{
-			"path" : "Release/VamSuv.pdb"
+			"path" : "MinSizeRel/VamSuv.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -65,7 +65,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG"
 				}
 			],
 			"includes" : 
@@ -86,15 +86,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "sfml-system::@8cb1db2982443611e568"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "sfml-window::@5730451e331e3690ae65"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "sfml-graphics::@98af38147d5fa7e70f61"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfml-system::@8cb1db2982443611e568"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
@@ -106,7 +106,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -115,17 +115,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "_deps\\sfml-build\\lib\\Release\\sfml-graphics.lib",
+				"fragment" : "_deps\\sfml-build\\lib\\MinSizeRel\\sfml-graphics.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "_deps\\sfml-build\\lib\\Release\\sfml-window.lib",
+				"fragment" : "_deps\\sfml-build\\lib\\MinSizeRel\\sfml-window.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "_deps\\sfml-build\\lib\\Release\\sfml-system.lib",
+				"fragment" : "_deps\\sfml-build\\lib\\MinSizeRel\\sfml-system.lib",
 				"role" : "libraries"
 			},
 			{

@@ -214,21 +214,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-0a67259e7b97444f54c9.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-08d1969aaec6188d25db.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
-					"jsonFile" : "target-ALL_BUILD-Debug-c41c88fa60946d64041c.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-3df1000b2279dd8a8cc5.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VamSuv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VamSuv-Debug-370848016a5dc0b19115.json",
+					"jsonFile" : "target-VamSuv-Debug-3b0cff02af5c4257d3eb.json",
 					"name" : "VamSuv",
 					"projectIndex" : 0
 				},
@@ -249,7 +249,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-Debug-78de269211be54e22912.json",
+					"jsonFile" : "target-sfml-graphics-Debug-d62dcc9e0761410feac8.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
@@ -496,21 +496,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-0a67259e7b97444f54c9.json",
+					"jsonFile" : "target-ALL_BUILD-Release-08d1969aaec6188d25db.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
-					"jsonFile" : "target-ALL_BUILD-Release-c41c88fa60946d64041c.json",
+					"jsonFile" : "target-ALL_BUILD-Release-3df1000b2279dd8a8cc5.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VamSuv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VamSuv-Release-d765495e24bd153acaae.json",
+					"jsonFile" : "target-VamSuv-Release-c32ca128e94b9ab7ad09.json",
 					"name" : "VamSuv",
 					"projectIndex" : 0
 				},
@@ -531,7 +531,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-Release-62e37402d63ddd6d8b7c.json",
+					"jsonFile" : "target-sfml-graphics-Release-dbd9d70038ab5e8432c4.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
@@ -778,21 +778,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0a67259e7b97444f54c9.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-08d1969aaec6188d25db.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c41c88fa60946d64041c.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3df1000b2279dd8a8cc5.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VamSuv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VamSuv-MinSizeRel-1d700c23a6d42febbe2e.json",
+					"jsonFile" : "target-VamSuv-MinSizeRel-a452dd944e6db2304687.json",
 					"name" : "VamSuv",
 					"projectIndex" : 0
 				},
@@ -813,7 +813,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-MinSizeRel-1ba9ae7474e114340811.json",
+					"jsonFile" : "target-sfml-graphics-MinSizeRel-5203b4135d6fe7106f70.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
@@ -1060,21 +1060,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0a67259e7b97444f54c9.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-08d1969aaec6188d25db.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@120c268ab73394db0a9a",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c41c88fa60946d64041c.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3df1000b2279dd8a8cc5.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VamSuv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VamSuv-RelWithDebInfo-b23b397b39381f1c3528.json",
+					"jsonFile" : "target-VamSuv-RelWithDebInfo-3860685a2f6268eddad7.json",
 					"name" : "VamSuv",
 					"projectIndex" : 0
 				},
@@ -1095,7 +1095,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-RelWithDebInfo-bd81a1a447a8413f0f07.json",
+					"jsonFile" : "target-sfml-graphics-RelWithDebInfo-70a280d4290ab756e646.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
